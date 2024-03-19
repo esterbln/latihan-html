@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.title1{
+    color: rgb(42, 181, 203);
+}
+
+.my-btn{
+    background-color: #0a5fe7;
+    border: none;
+/* atas, kanan, bawah, kiri */
+/* padding: 3em 4em 8em 12em; */
+    padding: 0.7em 1.3em;
+/* padding-top 0.7em
+   padding-left 1.3em */
+    border-radius: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.outline-btn{
+    /* ukuran, tebeltipis, warna*/
+    border: 1px solid rgb(66, 66, 129);
+    padding: 0.7em 1.3em;
+    border-radius: 20px;
+    background-color: #ffff
+    color #2b2db6;
+}
+
+.outline-btn:hover{
+    background-color:rgb(93, 93, 219);
+    color: #ffff;
+    font-size: 15px;
+}
+
+.my-table {
+    border: none;
+}
+
+.my-table td {
+    padding: 1em;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #4d98b9;
+}
+
+ .my-card {
+    width: 20em;
+    background-color: #ffffff;
+ }
+
+ .my-card .card-content .card-title{
+    padding: 1em 1 em 0.1em 1em;
+ }
+
+ .my-card .card-content .card-title{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(72, 151, 190);
+ }
